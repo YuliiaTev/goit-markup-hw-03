@@ -226,9 +226,9 @@ letter-spacing: 0.02em
 }
 
 .list {
-width: calc((100%-72px) /4);
+width: calc((100% - 72px) /4);
 padding-left: 0;
-    margin: 0;
+margin: 0;
 }
 
 .sheet-team {
