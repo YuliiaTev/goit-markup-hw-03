@@ -151,12 +151,16 @@ margin-right: 76px;
 
   
 .div-header {
-border-bottom: 1px solid #e7e9fc;
-display: flex;
 
+display: flex;
+}
+
+.header-general {
+border-bottom: 1px solid #e7e9fc;    
+}
 
     
-}
+
 
 .container {
 width: 1158px;
@@ -177,10 +181,12 @@ align-items: center;
 
 }
 
+
 .contact-info {
     display: flex;
     gap: 40px;
-}
+    align-items: center;
+  }
   
 
 
