@@ -227,6 +227,8 @@ letter-spacing: 0.02em
 
 .list {
 width: calc((100%-72px) / 4);
+padding-left: 0;
+    margin: 0;
 }
 
 .sheet-team {
@@ -247,7 +249,7 @@ width: calc((100%-72px) / 4);
     line-height: 1.11;
     letter-spacing: 0.02em;
     text-transform: capitalize;
-    margin-bottom: 8px;
+    margin-bottom: 72px;
 }
 
 .team-list {
@@ -260,6 +262,7 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-align: center;
 margin-bottom: 8px;
+
 }
 
 .team-occupation {
@@ -314,7 +317,8 @@ margin-bottom: 8px;
 }
 
 .portfolio-info {
-    width: calc((100% - 48px) / 3);
+  
+    width: calc((100%-48px)/3);
     padding-left: 0;
     margin: 0;
 }
